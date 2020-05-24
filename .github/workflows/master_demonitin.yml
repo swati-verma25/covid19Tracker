@@ -29,4 +29,4 @@ jobs:
         app-name: 'demonitin'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_50937ee07d1c40bb8e27ccc49e5412bb }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/target/*.war'
