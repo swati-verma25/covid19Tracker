@@ -29,4 +29,4 @@ jobs:
         app-name: 'covid19demo'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b8627a47f16f4ccca42d2e21fdcfa89d }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/target/*.war'
